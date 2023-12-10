@@ -1,12 +1,10 @@
 github_users:
-  - torvalds
-  - alshedivat
+  - shubhkarmanSingh
 
 github_repos:
-  - alshedivat/al-folio
-  - twbs/bootstrap
-  - jekyll/jekyll
-  - jquery/jquery
-  - FortAwesome/Font-Awesome
-  - jpswalsh/academicons
-  - mathjax/MathJax
+  - ladybuglady/CSE482-XAI
+  - marcusc2/AR-Geological-Vision
+  - UWRealityLab/xrcapstone23wi-team2
+  - cse442-22w/FP-machine-learning-visualization
+  - UWCubeSat/hs2-reaction-wheels
+  - corinneherzog/blmproject
