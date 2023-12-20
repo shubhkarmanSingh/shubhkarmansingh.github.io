@@ -3,7 +3,7 @@
 
 @article{RESPECT,
   title={Empowering Families to Support their Child's Education: A Pilot Program},
-  author={S. Singh},
+  author={Singh, Shubhkarman},
   abstract={This thesis delves into the multifaceted landscape of computer science education within underprivi- leged and underrepresented communities, focusing on its impact on students’ journey towards higher education. Grounded in the principles of cultural capital and asset-based teaching methodologies, this research endeavors to address the barriers confronting students by offering tailored workshops. These workshops provide a scaffolded framework that empowers students and families to navigate educational opportunities, financial aid, mental health, and more. The thesis explores the significance of cultural capital in shaping students’ academic trajectories and advocates for an approach that ac- knowledges and leverages the diverse strengths within these communities. By integrating culturally relevant content, collaborative curriculum design, and dynamic teaching methods, the workshops aim to foster inclusivity and empowerment. The culmination of this effort reflects a commitment to cre- ating an educational landscape characterized by equity, unity, and transformative growth.},
   journal={RESPECT},
   year={2024},
@@ -13,10 +13,85 @@
 
 @article{ICML,
   title={Empowering Families to Support their Child's Education: A Pilot Program},
-  author={S. Singh, Z. Toprakbasti, N. Osman, K. Lindberg, E. Alsilimy},
+  author={Singh, Shubhkarman and Toprakbasti, Zeynep and Osman, Nawaf and Lindberg, Kasper and Alsilimy, Eyad},
   abstract={Currently, there are many ML models that, given a patient's ECG, can diagnose whether that patient has AFib with high accuracy. The issue with many of these models is that they are black- box models which make it difficult for community healthcare workers to interpret their decisions. Our solution is AFib-XAI, a program that uses explainable AI methods to display the important data points and regions of interest in an ECG that were factored into a model’s AFib diagnosis, as well as generate accurate, human-readable explanations for that model’s diagnosis. AFib-XAI can be run through a command-line interface. The program offers a selection of 3 AFib diagnostic deep learning models and 4 SHAP-based explainability methods. The user must provide an ECG, make a model se- lection, and select an explainability method. Af- terward, the program will be run. Once the program has finished running, the user will be given a visual result from the SHAP explainability method, as well as a very basic text explanation generated from the results.},
   journal={ICML},
   year={2024},
   pdf={A_Fib_XAI_Paper.pdf},
   preview={afib.png}
+}
+
+@report{nasa,
+  title={NASA SUITS Challenge with UW Reality Labs and AstroHuskies},
+  author={Singh, Shubhkarman and Dinh, Adrian and Christerson, Marcus and Bawa, Muskan},
+  abstract={To support astronauts conducting their essential research and daily tasks, we can leverage computer vision and AR technology to identify geological points of interest, assist in navigation, and present important data using a minimal, non-obtrusive UI.},
+  year={UW CSE Capstone Demo Day, 2023},
+  website={https://uwrealitylab.github.io/xrcapstone23wi-team2/},
+  news={https://realitylab.uw.edu/staging/?p=974},
+  preview={nasa_logo.png}
+}
+
+@report{comp_bio,
+  title={Comparing methods for Single-Cell RNA Sequencing Analysis in the Characterization of mir-190 During Cell Fate Selection},
+  author={Singh, Shubhkarman and Nagainis, Ariana},
+  abstract={Stem cells are important in the generation of cell diversity. They must ensure a properly-timed cascade of transcription factors that determine cell fate. However, the mechanisms that balance the generation of cellular diversity is poorly understood. To elucidate these mechanisms, the Drosophila melanogaster larval central nervous system (CNS) has become a powerful model. The neuroblasts (NBs)
+    in the larval central nervous system divide asymmetrically and give rise to cells
+    with different developmental fates. Currently, there is little known about whether
+    regulation of cell fate may involve microRNAs (miRNAs). These short non-coding
+    RNA’s silence gene expression of complementary mRNA transcripts. There is a
+    possibility that temporal and spatial regulators at the post transcriptional level have
+    potential to coordinate asymmetry of cell fate determinants. Previous research has
+    used a single-cell RNA sequencing (scRNAseq) to compare the transcriptomics of
+    individual cells between wildtype (wt) and mir-190 KO cells in drosophila. mir-190
+
+    deficient cells show a decrease in neuron production and an increase in differentiat-
+    ing cells, glial cells and kenyon cells compared to the control. This data suggests
+
+    miR-190 plays a role in regulating the balance of glial cells and possibly affects
+    self-renewal pathways. Currently, many scRNAseq publications use Seurat for
+    their anaylsis. Although Seurat is the most popular package, there are a plethora of
+    other scRNAseq packages that differ in their approach and can affect the accuracy
+    and interpretability of the results. Thus our goal for this project is to compare the
+    accuracy of results from different scRNA-seq data analysis methods, such as Seurat,
+    scVI, constrastiveVI, and linearVI. We aim to determine if mir-190 deficient cells
+    remain to show a decrease in neuron production compared to wildtype with newer
+    and improved scRNAseq analysis.},
+  year={UW CSE Computational Biology Graduate Capstone, 2022},
+  pdf={CSE_527_Computational_Biology-3.pdf},
+  preview={seurat.png}
+}
+
+@report{xai,
+  title={Literature Review on the State of Explainable AI in Medicine},
+  author={Singh, Shubhkarman},
+  abstract={Artificial Intelligence and Machine Learning have demonstrated remarkable potential in numerous domains from beating humans at Go to self-driving cars. Most of the recent growth in machine learning has been driven by the widespread use of complex models, like deep neural networks. However, this complexity comes at a cost as these ML systems are black boxes. Users and people being impacted have little to no understanding of how they make predictions. This lack of understanding presents multiple problems with serious consequences, and we need to develop ethical models that are interpretable, tractable, and trustworthy.
+    The use of ML systems is expanding not just in software engineering but into education, law enforcement, and healthcare. In health care, current AI-based systems fail to hold up performance in the real-world clinical environments. Other concerns surrounding the use of ML in medicine include privacy, bias, lack of transparency, and security as well as causality, informativeness, and fairness. AI decisions made or influenced by such systems affect human health, there is an urgent need for understanding of how such decisions are made.
+    A consensus is emerging in favor of explainable AI/ML to highlight how predictions are made, but we need to be wary about explainable AI in its current. In this report, I will highlight four papers that touch on an overview of limits in explainability, the definitions of explainability and how to evaluate them, the importance of extending explainability to causability, an example of explainable AI evaluation on a multi-modal medical imaging task, and how explanation trustworthiness is overlooked.},
+  year={UW CSE AI in Medicine Graduate Capstone, 2022},
+  pdf={Final_Paper_red.pdf},
+  video={xai_presentation.mov},
+  preview={xai.png}
+}
+
+@report{nlp,
+  title={Reproducibility Report for Self-Supervised Quality Estimation for Machine Translation},
+  author={Ku, Chahyon and Cheng, Daniel and Singh, Shubhkarman and Zhao, Sherry},
+  abstract={Fine-tuning pre-trained multilingual BERT on domain-specific parallel data from the open gold-standard parallel corpus
+will have higher sentence-level spearman-correlation and word-level F1-scores on quality estimation tasks than prior
+unsupervised methods.},
+  year={University of Washington Allen School Research Night, 2022},
+  pdf={CSE_481N-3.pdf},
+  poster={assets/pdf/cse481n_final_poster_selfsupervisedqe-2.pdf},
+  preview={nlp.png}
+}
+
+@report{VerbalEyes,
+  title={VerbalEyes: Pioneering AI-generated audio description Investors Pitch},
+  author={Zhu, Daniel and Singh, Shubhkarman and Ling, Honson and Liu, Arthur and Xu, Amy and Hishikawa, Alli and Li, Joana},
+  abstract={Every minute, there are 500 hours of user-generated content uploaded to YouTube2. There are billions of hours of video content across major social media platforms like Facebook, Twitter, Snapchat, and Instagram, and television broadcasters create thousands of hours of content for their viewers. Companies across the globe spend billions of dollars on video marketing campaigns and employee training videos. For the 12 million people in the United States who are blind or visually impaired, this enormous amount of engaging content is completely inaccessible. Among the 119 visually impaired individuals who we surveyed and interviewed, there was universal frustration with being unable to enjoy the content that they wished to. Audio description (AD), an additional narration track that conveys essential visual information in a media work, is imperative for improving video accessibility for people who are blind or visually impaired. The trend of providing AD for content is starting to pick up: major streaming services such as Netflix, Disney+, and Apple TV+ have begun offering AD on their new content, and large companies like P&G have started audio describing some marketing videos. However, this increase is slowed by manual audio description processes. Traditional AD vendors charge an expensive $9-15 per video minute with a slow turnaround time for 4-9 business days, all while being unresponsive to customer requests and delivering their services via antiquated and inefficient workflows. While the world is ready for audio description to become as ubiquitous as closed captioning, current systems cannot lead us to an accessible internet.},
+  year={University of Washington Undergraduate Research Symposium, 2021},
+  slides={assets/pdf/verbaleyes.mov},
+  interview={https://www.youtube.com/watch?v=3fyA2_Q5_Jg},
+  preview={verbaleyes.png},
+  news={https://blog.foster.uw.edu/sweet-16-2021-dempsey-startup/}
 }
